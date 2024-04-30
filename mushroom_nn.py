@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Cat Markowska, P.3
 # Kelly Ocampo, P.3
 
@@ -46,3 +47,6 @@ for i in nn.test_with_expected(test):
     difference = round(abs(i[1][0] - i[2][0]), 3)
     print(f"desired: {i[1]}, actual: {i[2]} diff: {difference}")
 
+=======
+# Cat Markowska, Kelly Ocampo P.3
+>>>>>>> bd642412d026bb20c07ebe920ab67aca4f652e3d
