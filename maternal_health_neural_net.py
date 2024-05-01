@@ -2,6 +2,9 @@
 # Kelly Ocampo, P.3
 # data: Age,SystolicBP,DiastolicBP,BS,BodyTemp,HeartRate
 
+## We switched our data from mushroom data to maternal health because we were unable to convert the mushroom data from Strings to numbers. 
+## We were unable to rename the team on Github.
+
 from typing import Tuple
 from neural import *
 from sklearn.model_selection import train_test_split
