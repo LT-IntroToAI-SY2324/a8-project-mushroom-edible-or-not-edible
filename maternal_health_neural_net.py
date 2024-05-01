@@ -53,7 +53,7 @@ def normalize(data: List[Tuple[List[float], List[float]]]):
     return data
 
 
-with open("mathernal_health_risk.txt", "r") as f:
+with open("maternal_health_risk.txt", "r") as f:
     training_data = [parse_line(line) for line in f.readlines() if len(line) > 4]
 
 # print(training_data)
@@ -66,7 +66,7 @@ print(len(train))
 print(len(test))
 print(test)
 
-nn = NeuralNet(13, 3, 1)
+nn = NeuralNet(5), 3, 1)
 nn.train(train, iters=10000, print_interval=1000, learning_rate=0.1)
 
 for i in nn.test_with_expected(td):
